@@ -3,6 +3,7 @@ const argv = require('minimist')(process.argv.slice(2));
 
 let env = null;
 
+console.log(argv.env);
 switch (argv.env) {
     case 'production':
         env = 'webpack.config.prod';

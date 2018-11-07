@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 let req = axios.create({
-    baseURL: 'http://192.168.10.102:5000/api',
+    baseURL: 'http://192.168.0.131:5000/api',
     // withCredentials: true,
     timeout: 10000
 });
